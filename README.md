@@ -23,6 +23,7 @@ Source in TS: https://github.com/i-am-alice/3rd-devs
    OPENAI_API_KEY=your_api_key_here (required)
    OPENAI_MODEL=openai/gpt-4o-mini (not required OpenAI gpt-4o-mini default)
    OPENAI_BASE_URL=https://openrouter.ai/api/v1 (not required OpenAI default)
+   FIRECRAWL_API_KEY=Firecrawl_api_key (required for websearch)
    ```
 
 3. Install dependencies:
@@ -38,6 +39,7 @@ Current examples:
 
 ```
 make thread
+make websearch
 ```
 
 This will start a server on port 8080 with endpoints /api/{example}: /api/thread
